@@ -30,4 +30,9 @@ public class CalculatorTest {
 		assertThat(calculatorObj.twoNumbersMultiplication(5, 5), is(25));
 	}
 
+	@Test
+	public void twoNumbersDivisionTest() {
+		assertThat(calculatorObj.twoNumbersDivision(5.5, 5.5), is(1.0));
+	}
+
 }

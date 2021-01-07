@@ -14,4 +14,8 @@ public class Calculator {
 		return (i * j);
 	}
 
+	public Double twoNumbersDivision(double d, double e) {
+		return (d / e);
+	}
+
 }
