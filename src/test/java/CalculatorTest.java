@@ -25,4 +25,9 @@ public class CalculatorTest {
 		assertThat(calculatorObj.twoNumbersSubtraction(5, 5), is(0));
 	}
 
+	@Test
+	public void twoNumbersMultiplicationTest() {
+		assertThat(calculatorObj.twoNumbersMultiplication(5, 5), is(25));
+	}
+
 }

@@ -10,4 +10,8 @@ public class Calculator {
 		return (i - j);
 	}
 
+	public Integer twoNumbersMultiplication(int i, int j) {
+		return (i * j);
+	}
+
 }
