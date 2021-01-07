@@ -20,4 +20,9 @@ public class CalculatorTest {
 		assertThat(calculatorObj.twoNumbersAddition(5, 5), is(10));
 	}
 
+	@Test
+	public void twoNumbersSubtractionTest() {
+		assertThat(calculatorObj.twoNumbersSubtraction(5, 5), is(0));
+	}
+
 }
